@@ -40,11 +40,11 @@ export const teachers: Teacher[] = [
     avatar: 'AC',
     photo: portrait('AC', '#76e4f7', '#26344f'),
     accent: '#76e4f7',
-    serviceLeadershipPoints: 186,
+    topics: ['AI tools', 'Course planning', 'Project feedback', 'Major transfer'],
     availableSlots: [
-      { id: 'ac-1', day: 'Monday', date: 'Apr 20', time: '09:30 - 10:00', room: 'MCP Studio A', status: 'available' },
-      { id: 'ac-2', day: 'Wednesday', date: 'Apr 22', time: '14:00 - 14:30', room: 'MCP Studio A', status: 'limited' },
-      { id: 'ac-3', day: 'Friday', date: 'Apr 24', time: '11:00 - 11:30', room: 'Online', status: 'available' },
+      { id: 'ac-1', day: 'Monday', date: 'Apr 20', time: '09:30 - 10:00', room: 'MCP Studio A', capacity: 8, joined: 3 },
+      { id: 'ac-2', day: 'Wednesday', date: 'Apr 22', time: '14:00 - 14:30', room: 'MCP Studio A', capacity: 6, joined: 6 },
+      { id: 'ac-3', day: 'Friday', date: 'Apr 24', time: '11:00 - 11:30', room: 'Online', capacity: 10, joined: 5 },
     ],
   },
   {
@@ -56,11 +56,11 @@ export const teachers: Teacher[] = [
     avatar: 'MH',
     photo: portrait('MH', '#d8b365', '#1f2937'),
     accent: '#d8b365',
-    serviceLeadershipPoints: 174,
+    topics: ['Career planning', 'Course planning', 'Startup idea', 'Presentation'],
     availableSlots: [
-      { id: 'mh-1', day: 'Tuesday', date: 'Apr 21', time: '10:00 - 10:30', room: 'Innovation Lounge', status: 'available' },
-      { id: 'mh-2', day: 'Thursday', date: 'Apr 23', time: '15:30 - 16:00', room: 'Innovation Lounge', status: 'available' },
-      { id: 'mh-3', day: 'Friday', date: 'Apr 24', time: '16:20 - 16:50', room: 'Online', status: 'limited' },
+      { id: 'mh-1', day: 'Tuesday', date: 'Apr 21', time: '10:00 - 10:30', room: 'Innovation Lounge', capacity: 8, joined: 4 },
+      { id: 'mh-2', day: 'Thursday', date: 'Apr 23', time: '15:30 - 16:00', room: 'Innovation Lounge', capacity: 8, joined: 8 },
+      { id: 'mh-3', day: 'Friday', date: 'Apr 24', time: '16:20 - 16:50', room: 'Online', capacity: 12, joined: 7 },
     ],
   },
   {
@@ -72,11 +72,11 @@ export const teachers: Teacher[] = [
     avatar: 'SL',
     photo: portrait('SL', '#be7c4d', '#3b2f2f'),
     accent: '#be7c4d',
-    serviceLeadershipPoints: 151,
+    topics: ['Portfolio feedback', 'Project feedback', 'Presentation'],
     availableSlots: [
-      { id: 'sl-1', day: 'Monday', date: 'Apr 20', time: '13:00 - 13:30', room: 'Media Lab 2', status: 'available' },
-      { id: 'sl-2', day: 'Wednesday', date: 'Apr 22', time: '09:00 - 09:30', room: 'Media Lab 2', status: 'available' },
-      { id: 'sl-3', day: 'Thursday', date: 'Apr 23', time: '11:20 - 11:50', room: 'Online', status: 'limited' },
+      { id: 'sl-1', day: 'Monday', date: 'Apr 20', time: '13:00 - 13:30', room: 'Media Lab 2', capacity: 6, joined: 2 },
+      { id: 'sl-2', day: 'Wednesday', date: 'Apr 22', time: '09:00 - 09:30', room: 'Media Lab 2', capacity: 6, joined: 5 },
+      { id: 'sl-3', day: 'Thursday', date: 'Apr 23', time: '11:20 - 11:50', room: 'Online', capacity: 10, joined: 10 },
     ],
   },
   {
@@ -88,11 +88,11 @@ export const teachers: Teacher[] = [
     avatar: 'NB',
     photo: portrait('NB', '#a7f3d0', '#233876'),
     accent: '#a7f3d0',
-    serviceLeadershipPoints: 197,
+    topics: ['Course planning', 'Major transfer', 'Project feedback'],
     availableSlots: [
-      { id: 'nb-1', day: 'Tuesday', date: 'Apr 21', time: '08:40 - 09:10', room: 'North Hall 508', status: 'available' },
-      { id: 'nb-2', day: 'Wednesday', date: 'Apr 22', time: '16:00 - 16:30', room: 'North Hall 508', status: 'limited' },
-      { id: 'nb-3', day: 'Friday', date: 'Apr 24', time: '10:00 - 10:30', room: 'Online', status: 'available' },
+      { id: 'nb-1', day: 'Tuesday', date: 'Apr 21', time: '08:40 - 09:10', room: 'North Hall 508', capacity: 8, joined: 1 },
+      { id: 'nb-2', day: 'Wednesday', date: 'Apr 22', time: '16:00 - 16:30', room: 'North Hall 508', capacity: 6, joined: 6 },
+      { id: 'nb-3', day: 'Friday', date: 'Apr 24', time: '10:00 - 10:30', room: 'Online', capacity: 10, joined: 4 },
     ],
   },
   {
@@ -104,11 +104,11 @@ export const teachers: Teacher[] = [
     avatar: 'PR',
     photo: portrait('PR', '#f0abfc', '#3b2756'),
     accent: '#f0abfc',
-    serviceLeadershipPoints: 139,
+    topics: ['Wellbeing', 'Course planning', 'Presentation'],
     availableSlots: [
-      { id: 'pr-1', day: 'Monday', date: 'Apr 20', time: '15:00 - 15:30', room: 'Wellbeing Suite', status: 'available' },
-      { id: 'pr-2', day: 'Thursday', date: 'Apr 23', time: '09:30 - 10:00', room: 'Wellbeing Suite', status: 'available' },
-      { id: 'pr-3', day: 'Friday', date: 'Apr 24', time: '13:40 - 14:10', room: 'Online', status: 'limited' },
+      { id: 'pr-1', day: 'Monday', date: 'Apr 20', time: '15:00 - 15:30', room: 'Wellbeing Suite', capacity: 8, joined: 5 },
+      { id: 'pr-2', day: 'Thursday', date: 'Apr 23', time: '09:30 - 10:00', room: 'Wellbeing Suite', capacity: 8, joined: 2 },
+      { id: 'pr-3', day: 'Friday', date: 'Apr 24', time: '13:40 - 14:10', room: 'Online', capacity: 10, joined: 10 },
     ],
   },
   {
@@ -120,11 +120,11 @@ export const teachers: Teacher[] = [
     avatar: 'EN',
     photo: portrait('EN', '#fda4af', '#2f3b35'),
     accent: '#fda4af',
-    serviceLeadershipPoints: 168,
+    topics: ['Career planning', 'Project feedback', 'Major transfer', 'Sustainability'],
     availableSlots: [
-      { id: 'en-1', day: 'Tuesday', date: 'Apr 21', time: '13:30 - 14:00', room: 'Prototype Bay', status: 'available' },
-      { id: 'en-2', day: 'Wednesday', date: 'Apr 22', time: '10:40 - 11:10', room: 'Prototype Bay', status: 'limited' },
-      { id: 'en-3', day: 'Thursday', date: 'Apr 23', time: '16:10 - 16:40', room: 'Online', status: 'available' },
+      { id: 'en-1', day: 'Tuesday', date: 'Apr 21', time: '13:30 - 14:00', room: 'Prototype Bay', capacity: 6, joined: 3 },
+      { id: 'en-2', day: 'Wednesday', date: 'Apr 22', time: '10:40 - 11:10', room: 'Prototype Bay', capacity: 6, joined: 6 },
+      { id: 'en-3', day: 'Thursday', date: 'Apr 23', time: '16:10 - 16:40', room: 'Online', capacity: 10, joined: 6 },
     ],
   },
   {
@@ -136,11 +136,11 @@ export const teachers: Teacher[] = [
     avatar: 'HS',
     photo: portrait('HS', '#fde68a', '#3d3528'),
     accent: '#fde68a',
-    serviceLeadershipPoints: 121,
+    topics: ['Writing support', 'Presentation', 'Course planning'],
     availableSlots: [
-      { id: 'hs-1', day: 'Monday', date: 'Apr 20', time: '10:40 - 11:10', room: 'Language Forum', status: 'limited' },
-      { id: 'hs-2', day: 'Tuesday', date: 'Apr 21', time: '15:00 - 15:30', room: 'Language Forum', status: 'available' },
-      { id: 'hs-3', day: 'Thursday', date: 'Apr 23', time: '13:00 - 13:30', room: 'Online', status: 'available' },
+      { id: 'hs-1', day: 'Monday', date: 'Apr 20', time: '10:40 - 11:10', room: 'Language Forum', capacity: 8, joined: 8 },
+      { id: 'hs-2', day: 'Tuesday', date: 'Apr 21', time: '15:00 - 15:30', room: 'Language Forum', capacity: 8, joined: 4 },
+      { id: 'hs-3', day: 'Thursday', date: 'Apr 23', time: '13:00 - 13:30', room: 'Online', capacity: 10, joined: 3 },
     ],
   },
   {
@@ -152,14 +152,28 @@ export const teachers: Teacher[] = [
     avatar: 'IM',
     photo: portrait('IM', '#93c5fd', '#1e3a5f'),
     accent: '#93c5fd',
-    serviceLeadershipPoints: 145,
+    topics: ['Portfolio feedback', 'Project feedback', 'Career planning'],
     availableSlots: [
-      { id: 'im-1', day: 'Wednesday', date: 'Apr 22', time: '13:20 - 13:50', room: 'Design Crit Room', status: 'available' },
-      { id: 'im-2', day: 'Thursday', date: 'Apr 23', time: '10:30 - 11:00', room: 'Design Crit Room', status: 'available' },
-      { id: 'im-3', day: 'Friday', date: 'Apr 24', time: '15:20 - 15:50', room: 'Online', status: 'limited' },
+      { id: 'im-1', day: 'Wednesday', date: 'Apr 22', time: '13:20 - 13:50', room: 'Design Crit Room', capacity: 6, joined: 2 },
+      { id: 'im-2', day: 'Thursday', date: 'Apr 23', time: '10:30 - 11:00', room: 'Design Crit Room', capacity: 6, joined: 6 },
+      { id: 'im-3', day: 'Friday', date: 'Apr 24', time: '15:20 - 15:50', room: 'Online', capacity: 10, joined: 4 },
     ],
   },
 ];
 
-export const departments = ['All Departments', ...Array.from(new Set(teachers.map((teacher) => teacher.department)))];
+export const departments = ['All Subjects', ...Array.from(new Set(teachers.map((teacher) => teacher.department)))];
+export const consultationTopics = [
+  'All Topics',
+  'Course planning',
+  'Major transfer',
+  'Project feedback',
+  'Career planning',
+  'Portfolio feedback',
+  'Presentation',
+  'Wellbeing',
+  'Writing support',
+  'AI tools',
+  'Startup idea',
+  'Sustainability',
+];
 export const days = ['All Days', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];

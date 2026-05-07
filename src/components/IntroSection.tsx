@@ -1,15 +1,15 @@
 const features = [
   {
-    title: 'Easy teacher browsing',
-    text: 'Explore mentors through refined profile cards, departments, specialties, and schedule actions.',
+    title: 'Group discussion',
+    text: 'Join teacher slots with classmates.',
   },
   {
-    title: 'Clear reservation schedule',
-    text: 'Filter mock appointments by teacher department or day and read each slot at a glance.',
+    title: 'Campus information',
+    text: 'Find courses, academic steps, facilities, and career tips.',
   },
   {
-    title: 'Elegant academic portal experience',
-    text: 'A premium front-end prototype with glass layers, cinematic lighting, and motion depth.',
+    title: 'Quick AI answers',
+    text: 'Solve common school questions first.',
   },
 ];
 
@@ -19,9 +19,8 @@ export function IntroSection() {
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
       <div className="mx-auto max-w-7xl">
         <div className="max-w-3xl">
-          <p className="text-sm font-black uppercase tracking-[0.28em] text-cyanline">Platform overview</p>
           <h2 className="mt-4 font-display text-4xl font-black tracking-[-0.04em] text-[#18202f] md:text-6xl">
-            Designed like an academic event command center.
+            One place for daily student support.
           </h2>
         </div>
         <div className="mt-12 grid gap-5 md:grid-cols-3">

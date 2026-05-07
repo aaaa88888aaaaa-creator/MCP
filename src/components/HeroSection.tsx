@@ -7,25 +7,21 @@ export function HeroSection() {
       <div className="relative z-10 mx-auto grid max-w-7xl items-end gap-12 py-20 md:grid-cols-[1.08fr_0.92fr]">
         <div className="max-w-4xl animate-fade-up">
           <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-gold/25 bg-gold/10 px-4 py-2 text-xs font-black uppercase tracking-[0.28em] text-gold shadow-glow">
-            Academic appointment intelligence
+            Campus support hub
           </div>
           <h1 className="font-display text-[clamp(4.8rem,13vw,12rem)] font-black uppercase leading-[0.78] tracking-[-0.08em] text-[#18202f]">
             BNBU
             <span className="block bg-gradient-to-r from-[#be7c4d] via-[#18202f] to-[#1d7281] bg-clip-text text-transparent">MCP</span>
           </h1>
           <p className="mt-8 max-w-2xl text-xl font-semibold leading-relaxed text-[#18202f]/78 md:text-2xl">
-            Smart Teacher Appointment Platform
-          </p>
-          <p className="mt-5 max-w-2xl text-base leading-8 text-[#18202f]/62 md:text-lg">
-            A cinematic academic portal for browsing experts, discovering available office hours,
-            and reserving focused conversations in a premium digital environment.
+            Teacher discussions, campus information, and quick school answers.
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
               href="#reservation"
               className="group rounded-full bg-[#18202f] px-7 py-4 text-center text-sm font-black uppercase tracking-[0.18em] text-white transition hover:-translate-y-1 hover:bg-[#be7c4d] hover:shadow-glow"
             >
-              Enter Reservation System
+              Join Discussion
             </a>
             <a
               href="#teachers"

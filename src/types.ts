@@ -1,12 +1,11 @@
-export type SlotStatus = 'available' | 'limited';
-
 export type AppointmentSlot = {
   id: string;
   day: string;
   date: string;
   time: string;
   room: string;
-  status: SlotStatus;
+  capacity: number;
+  joined: number;
 };
 
 export type Teacher = {
@@ -18,6 +17,6 @@ export type Teacher = {
   avatar: string;
   photo: string;
   accent: string;
-  serviceLeadershipPoints: number;
+  topics: string[];
   availableSlots: AppointmentSlot[];
 };
